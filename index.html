@@ -6,21 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
     <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header id="header">
-      <nav id="nav-bar">
-        <img
-        id="header img"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFxpseLhYYoDZi-PzLjfTwjJcYV56DAklb0A&usqp=CAU"
-        height="50"
-        width="300"
+      <img
+        id="header-img"
+        src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png"
+        alt="Nasa's logo"
+        height="80"
+        width="160"
       />
-      <a href="https://www.spacex.com/">
-        <h2>first clickable</h2>
-      </a>
+      <nav id="nav-bar">
+        <a id='tags' href="#top">Top</a>
+        <a id='tags' href="#mid">Mid</a>
+        <a id='tags' href="#bottom">Bottom</a>
       </nav>
     </header>
-    <h1>Hello World, we are software developers! dsadasdasdda</h1>
+    <section id="video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/21X5lGlDOfg"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <div id="top"></div>
+    <div id="mid">
+      <h1>Hello World, we are software developers! dsadasdasdda</h1>
+    </div>
+    <form id='form' action="https://www.freecodecamp.com/email-submit">
+      <input id="email" placeholder="Email address" type="email">
+      <input id='submit' type="submit" src="https://www.freecodecamp.com/email-submit">
+    </form>
+    <div id="bottom">
+      <h1>Something</h1>
+    </div>
   </body>
 </html>
