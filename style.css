@@ -1,0 +1,20 @@
+#buttons {
+  cursor: pointer;
+}
+
+#header-img {
+  margin: auto;
+  display: block;
+}
+
+#top {
+  height: 10px;
+  width: 100%;
+  background-color: blue;
+}
+
+#bottom {
+  height: 10px;
+  width: 100%;
+  background-color: blue;
+}
